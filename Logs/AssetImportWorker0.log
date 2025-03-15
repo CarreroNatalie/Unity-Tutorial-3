@@ -15,7 +15,7 @@ C:/Users/oreo8/OneDrive/Documents/GitHub/Unity-Tutorial-3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52098
+55924
 -job-worker-count
 11
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/oreo8/OneDrive/Documents/GitHub/Unity-Tutorial-3
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27340]  Target information:
+Player connection [30780]  Target information:
 
-Player connection [27340]  * "[IP] 10.2.51.23 [Port] 0 [Flags] 2 [Guid] 2689183417 [EditorId] 2689183417 [Version] 1048832 [Id] WindowsEditor(7,allison) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30780]  * "[IP] 10.2.51.23 [Port] 0 [Flags] 2 [Guid] 1872416804 [EditorId] 1872416804 [Version] 1048832 [Id] WindowsEditor(7,allison) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27340] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27340] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30780] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30780] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,8 +76,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.11 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
+Refreshing native plugins compatible for Editor in 2.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
 Initialize engine version: 6000.0.40f1 (157d81624ddf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/oreo8/OneDrive/Documents/GitHub/Unity-Tutorial-3/Assets
@@ -92,50 +92,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.003288 seconds.
-- Loaded All Assemblies, in  0.255 seconds
+Registered in 0.004548 seconds.
+- Loaded All Assemblies, in  0.278 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 166 ms
+Android Extension - Scanning For ADB Devices 208 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.403 seconds
-Domain Reload Profiling: 656ms
-	BeginReloadAssembly (89ms)
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 765ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (102ms)
-		LoadAssemblies (87ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (94ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (99ms)
-			TypeCache.Refresh (98ms)
-				TypeCache.ScanAssembly (89ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (94ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (403ms)
+	FinalizeReload (489ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (374ms)
+		SetupLoadedEditorAssemblies (453ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (227ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			InitializePlatformSupportModulesInManaged (290ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +144,8 @@ Domain Reload Profiling: 656ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.561 seconds
-Refreshing native plugins compatible for Editor in 2.03 ms, found 6 plugins.
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.611 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 6 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -177,92 +177,141 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.534 seconds
-Domain Reload Profiling: 1091ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.716 seconds
+Domain Reload Profiling: 1322ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (570ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7031 unused Assets / (4.3 MB). Loaded Objects now: 7733.
+Memory consumption went from 176.0 MB to 171.7 MB.
+Total: 5.315100 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.301900 ms MarkObjects: 3.131900 ms  DeleteObjects: 1.434300 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.536 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 1109ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
+		CreateAndSetChildDomain (33ms)
 	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (391ms)
-		LoadAssemblies (278ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (273ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (117ms)
-			BuildScriptInfoCaches (38ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (535ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (575ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (431ms)
+		SetupLoadedEditorAssemblies (440ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (262ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 6 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 231 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7028 unused Assets / (4.2 MB). Loaded Objects now: 7730.
-Memory consumption went from 177.7 MB to 173.5 MB.
-Total: 5.593100 ms (FindLiveObjects: 0.451100 ms CreateObjectMapping: 0.282000 ms MarkObjects: 3.303500 ms  DeleteObjects: 1.555400 ms)
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (4.2 MB). Loaded Objects now: 7749.
+Memory consumption went from 220.3 MB to 216.1 MB.
+Total: 4.907300 ms (FindLiveObjects: 0.430800 ms CreateObjectMapping: 0.189900 ms MarkObjects: 2.958600 ms  DeleteObjects: 1.327100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 26404.031619 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef
+  artifactKey: Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef using Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b41c6d6d2d87a67621f050dd859b0c04') in 0.0103934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11317.118144 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7
-  artifactKey: Guid(cd5cb6db9eac3cb4d9e9775ab727ea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7 using Guid(cd5cb6db9eac3cb4d9e9775ab727ea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '547e2ffaeb5d139f9206deb597e7cb4d') in 0.0042134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26113f58267d61741316b7864c9ff29e') in 0.0143037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Samples/XR Interaction Toolkit
-  artifactKey: Guid(3fa786276ea13f04280a801d03c3e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit using Guid(3fa786276ea13f04280a801d03c3e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63e1d5c178c6794d20127f84066835a6') in 0.0004268 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Samples
-  artifactKey: Guid(8c0f2032da56ddd48bed2d25f4800e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples using Guid(8c0f2032da56ddd48bed2d25f4800e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27cd4dad89ad4a9c21a0fe3475b6d7f') in 0.0004502 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.639507 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/StarterAssets.asmdef
-  artifactKey: Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/StarterAssets.asmdef using Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dbfa429cbf3419cc9ffaaf5d0146cf1') in 0.0005453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.358668 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs
-  artifactKey: Guid(d93dd55b5e3f13549ab7e819935c2b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs using Guid(d93dd55b5e3f13549ab7e819935c2b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '284431e45fc523ae9bfb9c97c8b716ad') in 0.0004964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044963 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
-  artifactKey: Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/XR Origin (XR Rig).prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f73ddead420790b167e5a154a7a98920') in 1.835932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 541
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/XR Device Hand Controls.inputactions
+  artifactKey: Guid(b72ab2a46d9094be38774d023beb4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/XR Device Hand Controls.inputactions using Guid(b72ab2a46d9094be38774d023beb4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d69d5aca70cc13d876bf838671f8a60') in 0.0015231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
