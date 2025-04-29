@@ -15,7 +15,7 @@ C:/Users/oreo8/OneDrive/Documents/GitHub/Unity-Tutorial-3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52098
+50720
 -job-worker-count
 11
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/oreo8/OneDrive/Documents/GitHub/Unity-Tutorial-3
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27340]  Target information:
+Player connection [22680]  Target information:
 
-Player connection [27340]  * "[IP] 10.2.51.23 [Port] 0 [Flags] 2 [Guid] 2689183417 [EditorId] 2689183417 [Version] 1048832 [Id] WindowsEditor(7,allison) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22680]  * "[IP] 10.2.51.12 [Port] 0 [Flags] 2 [Guid] 3791468056 [EditorId] 3791468056 [Version] 1048832 [Id] WindowsEditor(7,allison) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27340] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27340] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22680] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22680] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,8 +76,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.11 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
+Refreshing native plugins compatible for Editor in 2.67 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
 Initialize engine version: 6000.0.40f1 (157d81624ddf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/oreo8/OneDrive/Documents/GitHub/Unity-Tutorial-3/Assets
@@ -87,55 +87,55 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
     Vendor:   NVIDIA
     VRAM:     16050 MB
-    Driver:   32.0.15.6094
+    Driver:   32.0.15.7283
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.003288 seconds.
-- Loaded All Assemblies, in  0.255 seconds
+Registered in 0.004646 seconds.
+- Loaded All Assemblies, in  0.259 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 166 ms
+Android Extension - Scanning For ADB Devices 189 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.403 seconds
-Domain Reload Profiling: 656ms
-	BeginReloadAssembly (89ms)
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 691ms
+	BeginReloadAssembly (86ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
+		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (102ms)
-		LoadAssemblies (87ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (99ms)
-			TypeCache.Refresh (98ms)
-				TypeCache.ScanAssembly (89ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (94ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (403ms)
+	FinalizeReload (434ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (374ms)
+		SetupLoadedEditorAssemblies (404ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (227ms)
+			InitializePlatformSupportModulesInManaged (262ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +144,8 @@ Domain Reload Profiling: 656ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.561 seconds
-Refreshing native plugins compatible for Editor in 2.03 ms, found 6 plugins.
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 6 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -177,92 +177,444 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.534 seconds
-Domain Reload Profiling: 1091ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.549 seconds
+Domain Reload Profiling: 1129ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (391ms)
-		LoadAssemblies (278ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (286ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (117ms)
-			BuildScriptInfoCaches (38ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (535ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (550ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (431ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (262ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 231 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7028 unused Assets / (4.2 MB). Loaded Objects now: 7730.
-Memory consumption went from 177.7 MB to 173.5 MB.
-Total: 5.593100 ms (FindLiveObjects: 0.451100 ms CreateObjectMapping: 0.282000 ms MarkObjects: 3.303500 ms  DeleteObjects: 1.555400 ms)
+Refreshing native plugins compatible for Editor in 2.29 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 232 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7031 unused Assets / (3.5 MB). Loaded Objects now: 7735.
+Memory consumption went from 178.7 MB to 175.2 MB.
+Total: 7.423000 ms (FindLiveObjects: 0.889100 ms CreateObjectMapping: 0.420500 ms MarkObjects: 4.562500 ms  DeleteObjects: 1.549800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11317.118144 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7
-  artifactKey: Guid(cd5cb6db9eac3cb4d9e9775ab727ea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7 using Guid(cd5cb6db9eac3cb4d9e9775ab727ea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '547e2ffaeb5d139f9206deb597e7cb4d') in 0.0042134 seconds
+  Time since last request: 20210.920775 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_spiral_blue_03.prefab
+  artifactKey: Guid(65864248b6e1b9147945c6179501e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_spiral_blue_03.prefab using Guid(65864248b6e1b9147945c6179501e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '333f448745b7eee3dbd9836ea7454cce') in 0.3355053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_simple_orange_03.prefab
+  artifactKey: Guid(e217e67d0c1bea542a0155d5b3f6cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_simple_orange_03.prefab using Guid(e217e67d0c1bea542a0155d5b3f6cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e61439bcacb0c5017d8b59d26e176d5b') in 0.0307534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_bell_pink_01.prefab
+  artifactKey: Guid(6ed794cde5446d341b04f2e0430f6772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_bell_pink_01.prefab using Guid(6ed794cde5446d341b04f2e0430f6772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c6701cbf231be2895f29c3c59b9ba06') in 0.0223015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_pointy_pink_02.prefab
+  artifactKey: Guid(cc9fcbf65645cf94ba9a76c398a028c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_pointy_pink_02.prefab using Guid(cc9fcbf65645cf94ba9a76c398a028c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0b30f4e2f1354ca4b643f0823aacfa5') in 0.020264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_bell_pink_03.prefab
+  artifactKey: Guid(d4ab5c0e543e8b74e8fae853250db336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_bell_pink_03.prefab using Guid(d4ab5c0e543e8b74e8fae853250db336) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '615c0a1c926aa61f2ee9a842f666807d') in 0.0174773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_spiral_brown_02.prefab
+  artifactKey: Guid(231e191a62cd2ea4794e87880f0180d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_spiral_brown_02.prefab using Guid(231e191a62cd2ea4794e87880f0180d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a99e4b722e97116dcf8dc75b92e25ece') in 0.019317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_round_beige_02.prefab
+  artifactKey: Guid(a49f22f7e433c124687a159e91721193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_round_beige_02.prefab using Guid(a49f22f7e433c124687a159e91721193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45e9a806d1cc7078b1dfd0a503689436') in 0.0194471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_round_beige_03.prefab
+  artifactKey: Guid(2bc296aba4ec7f14ca89b9d420594533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_round_beige_03.prefab using Guid(2bc296aba4ec7f14ca89b9d420594533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be710784d1acba4ef11b1b62a5d5276a') in 0.0220967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_bell_green_03.prefab
+  artifactKey: Guid(ac4b31d110453c047ad79b3d5f3d0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_bell_green_03.prefab using Guid(ac4b31d110453c047ad79b3d5f3d0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ce784536d6373e65953420f562a5a68') in 0.0169399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_wavy_pink_03.prefab
+  artifactKey: Guid(ba36f423ecb610a4795b41a62fba7033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_wavy_pink_03.prefab using Guid(ba36f423ecb610a4795b41a62fba7033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '349cf729ecad44c03616dd42fb471472') in 0.0212125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_simple_lilac_02.prefab
+  artifactKey: Guid(2c2e642fedd92fe4e82dcecddc11f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_simple_lilac_02.prefab using Guid(2c2e642fedd92fe4e82dcecddc11f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '618aa8c3350b22ba5f1053b5c6153dcd') in 0.0166421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_spiral_pink_03.prefab
+  artifactKey: Guid(243b40657e90c234f925aa9345ba9cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_spiral_pink_03.prefab using Guid(243b40657e90c234f925aa9345ba9cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e97ecfe052eccc42720b7338776b22b0') in 0.0200098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_pointy_blue_01.prefab
+  artifactKey: Guid(b6fc76f97855513488ef7395b4e73d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_pointy_blue_01.prefab using Guid(b6fc76f97855513488ef7395b4e73d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26bf4a57500580d8218bb3989ffb8985') in 0.0215132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_simple_red_03.prefab
+  artifactKey: Guid(d9a31546e5746894a8232e40314d1de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_simple_red_03.prefab using Guid(d9a31546e5746894a8232e40314d1de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e039e8b4b9480a06d119fcae6290fcad') in 0.0139639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_tall_red_02.prefab
+  artifactKey: Guid(1b2cb6ab7beb7d14ba0892a6886994bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_tall_red_02.prefab using Guid(1b2cb6ab7beb7d14ba0892a6886994bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '845092e6be5e31fa0769b4f21e9068b1') in 0.0190095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_wavy_brown_02.prefab
+  artifactKey: Guid(ef3910105b0b2444cb7ae77614d7def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_wavy_brown_02.prefab using Guid(ef3910105b0b2444cb7ae77614d7def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06aa8ae81961c39febeba7e926743171') in 0.0162678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_simple_blue_03.prefab
+  artifactKey: Guid(bc35f3fade1331c46ab2526e12d02f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_simple_blue_03.prefab using Guid(bc35f3fade1331c46ab2526e12d02f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f05839f1ab16d1ebc4a3cdb8019acee') in 0.0181684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_wavy_pink_02.prefab
+  artifactKey: Guid(82d5d9b70575b2a40ac68d966021ab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_wavy_pink_02.prefab using Guid(82d5d9b70575b2a40ac68d966021ab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '789d5435d8cdf43d109702c09d82ec85') in 0.3811553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_tall_green_02.prefab
+  artifactKey: Guid(77324f055284e3f4b90fe102136324fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_tall_green_02.prefab using Guid(77324f055284e3f4b90fe102136324fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e30e9ef5362d3cfd8acc1785d815208e') in 0.0165364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_pointy_blue_02.prefab
+  artifactKey: Guid(bef713c796f8de44e918c4003cbf1d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_pointy_blue_02.prefab using Guid(bef713c796f8de44e918c4003cbf1d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1643226ec195d3dbe077a3ababf004a5') in 0.0195316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_round_brown_01.prefab
+  artifactKey: Guid(d3d0bd198f6a78f4a84804dd770dd41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_round_brown_01.prefab using Guid(d3d0bd198f6a78f4a84804dd770dd41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd13c52dd4ffda623d5f78d03b81523c3') in 0.0170485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_wavy_green_03.prefab
+  artifactKey: Guid(7a744ce3df711db40a3777e1601f2006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_wavy_green_03.prefab using Guid(7a744ce3df711db40a3777e1601f2006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5463754af6235bf750bf191b0f5ac9eb') in 0.0185096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_pointy_cream_03.prefab
+  artifactKey: Guid(7573e16445309ac428f30f515a817582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_pointy_cream_03.prefab using Guid(7573e16445309ac428f30f515a817582) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9719c5b6ce54f363d57a56ef16adfb23') in 0.0256625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_tall_red_03.prefab
+  artifactKey: Guid(6a4c6b8fd7be8c2409063d469835da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_tall_red_03.prefab using Guid(6a4c6b8fd7be8c2409063d469835da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7935a57febf3c8d24c22659ee19cc477') in 0.0171098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_bell_brown_01.prefab
+  artifactKey: Guid(d7cc6b9e9cc155f48a34f135e3769544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_bell_brown_01.prefab using Guid(d7cc6b9e9cc155f48a34f135e3769544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cae56601f013d32e026babbd3b692c0') in 0.022792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_simple_red_01.prefab
+  artifactKey: Guid(6fb44b1a23149c341b72711c71284ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_simple_red_01.prefab using Guid(6fb44b1a23149c341b72711c71284ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43f9da4d507676dfb7de00b155372b9e') in 0.0183878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_simple_orange_01.prefab
+  artifactKey: Guid(2535bd96c70602f4ea9f43716c474f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_simple_orange_01.prefab using Guid(2535bd96c70602f4ea9f43716c474f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71f00bb0cd12d309b2b1567cc27c01c3') in 0.0222916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_tall_green_03.prefab
+  artifactKey: Guid(e78aa076585783845beb937e638d8bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_tall_green_03.prefab using Guid(e78aa076585783845beb937e638d8bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a258aa79edb2d2ff89c80c0106ff83a1') in 0.0225033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_spiral_brown_03.prefab
+  artifactKey: Guid(ac1d55e7191cf894cbfbbfb79ee455c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_spiral_brown_03.prefab using Guid(ac1d55e7191cf894cbfbbfb79ee455c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a49eb1f161c34376cbb5b8479338f52d') in 0.0190741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_spiral_blue_02.prefab
+  artifactKey: Guid(1348a54a5d2c0624fa1a4768357d5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_spiral_blue_02.prefab using Guid(1348a54a5d2c0624fa1a4768357d5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23da90e690e0e5fc26053963385fded1') in 0.0209992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_spiral_brown_01.prefab
+  artifactKey: Guid(1a340bb9e6c40f14c91cc6a0f9c723a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_spiral_brown_01.prefab using Guid(1a340bb9e6c40f14c91cc6a0f9c723a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd1134c0f282f97224427e5a46d225d') in 0.0176706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_pointy_pink_03.prefab
+  artifactKey: Guid(1969fb965b148134493ea756487466b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_pointy_pink_03.prefab using Guid(1969fb965b148134493ea756487466b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fdc67ddc4c989ef7d7214470729d55d') in 0.0172636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.936526 seconds.
+  path: Assets/Mushroom Forest/Models
+  artifactKey: Guid(1967013dd5068e84ba167c0b0906787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models using Guid(1967013dd5068e84ba167c0b0906787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ac77180c5800357c311694baa98ab98') in 0.0004957 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Samples/XR Interaction Toolkit
-  artifactKey: Guid(3fa786276ea13f04280a801d03c3e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit using Guid(3fa786276ea13f04280a801d03c3e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63e1d5c178c6794d20127f84066835a6') in 0.0004268 seconds
+  Time since last request: 0.078976 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_bell.fbx
+  artifactKey: Guid(d6d4f067f49f91d4ab7aa82137826e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_bell.fbx using Guid(d6d4f067f49f91d4ab7aa82137826e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '420e6d2b2a254765d55d9da2c7251d13') in 0.2092505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_spiral.fbx
+  artifactKey: Guid(b02fa3a98a20b7346ae44c44b08c941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_spiral.fbx using Guid(b02fa3a98a20b7346ae44c44b08c941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '661bdc57e7e1e0ecc22995334bed1139') in 0.0374184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_simple.fbx
+  artifactKey: Guid(452e688c2be81f849b95719f48efed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_simple.fbx using Guid(452e688c2be81f849b95719f48efed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9a8555d507811c02dc2a4fb63785757') in 0.0361851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_round.fbx
+  artifactKey: Guid(4c99f15abbfec7e429f9e2f0e7ea9266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_round.fbx using Guid(4c99f15abbfec7e429f9e2f0e7ea9266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7f5e0867eb28fa2d3dacf3fd05695d3') in 0.0362546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.481214 seconds.
+  path: Assets/Mushroom Forest/Materials
+  artifactKey: Guid(c0f5a9103f063784faf1c9e94375eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials using Guid(c0f5a9103f063784faf1c9e94375eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d4e510104d12a8dc7256b2614cbf314') in 0.0004571 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Samples
-  artifactKey: Guid(8c0f2032da56ddd48bed2d25f4800e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples using Guid(8c0f2032da56ddd48bed2d25f4800e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27cd4dad89ad4a9c21a0fe3475b6d7f') in 0.0004502 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.035073 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_bell_brown.mat
+  artifactKey: Guid(982a09380f8b5c54ab413606ea248006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_bell_brown.mat using Guid(982a09380f8b5c54ab413606ea248006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e96f0cba796c7cb856705b4d7735dde6') in 0.0211383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.639507 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/StarterAssets.asmdef
-  artifactKey: Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/StarterAssets.asmdef using Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dbfa429cbf3419cc9ffaaf5d0146cf1') in 0.0005453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_tall_blue.mat
+  artifactKey: Guid(5e21754bbf6709241a3909e36c63f8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_tall_blue.mat using Guid(5e21754bbf6709241a3909e36c63f8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9a188c64b053eb1362685b2a65f0cc0') in 0.011311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.358668 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs
-  artifactKey: Guid(d93dd55b5e3f13549ab7e819935c2b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs using Guid(d93dd55b5e3f13549ab7e819935c2b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '284431e45fc523ae9bfb9c97c8b716ad') in 0.0004964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_round_brown.mat
+  artifactKey: Guid(1387514f1794dc241b105ef930c43cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_round_brown.mat using Guid(1387514f1794dc241b105ef930c43cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3a6cceda429823ea9d61931a1429ac8') in 0.0108679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.044963 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
-  artifactKey: Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/XR Origin (XR Rig).prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f73ddead420790b167e5a154a7a98920') in 1.835932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 541
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_tall_red.mat
+  artifactKey: Guid(958e5d6bacd81574e91dad3148225f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_tall_red.mat using Guid(958e5d6bacd81574e91dad3148225f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '252b2368fc4708b38a42da03e097a28e') in 0.0116104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_spiral_blue.mat
+  artifactKey: Guid(bacb772fe141c754c825ba7fec528157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_spiral_blue.mat using Guid(bacb772fe141c754c825ba7fec528157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff68ac478cfefb64a795a74ed7002e4c') in 0.0083648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_simple_lilac.mat
+  artifactKey: Guid(19955daa591f6e54892ce43ac15e2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_simple_lilac.mat using Guid(19955daa591f6e54892ce43ac15e2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11d9c8d69a3e2f9924e9c0c3e8107a2c') in 0.0083604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_bell_pink.mat
+  artifactKey: Guid(830fd17dc3890d640a016eae15c84289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_bell_pink.mat using Guid(830fd17dc3890d640a016eae15c84289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '097d63f6950c0445a1b61aebe444df2a') in 0.0080059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_wavy_pink.mat
+  artifactKey: Guid(cc43904a97eb4d347a1b421d506b14fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_wavy_pink.mat using Guid(cc43904a97eb4d347a1b421d506b14fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ec6db69b8e57222035f849598837d06') in 0.0081073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_simple_red.mat
+  artifactKey: Guid(ec4f7f94b3357e24398e31ed3f95420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_simple_red.mat using Guid(ec4f7f94b3357e24398e31ed3f95420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccd31b30d82f4bada271550c6bbffbbc') in 0.0082605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_simple_orange.mat
+  artifactKey: Guid(743d616bcba2c17428be78f879e58dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_simple_orange.mat using Guid(743d616bcba2c17428be78f879e58dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93773831ae0be6234e3d511ff0e5f7c6') in 0.0088111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_spiral_pink.mat
+  artifactKey: Guid(bcf0243cda0d84747bd628e08a69446f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_spiral_pink.mat using Guid(bcf0243cda0d84747bd628e08a69446f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4818dcde133e88a8f25ea598224ab64a') in 0.0081293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.996189 seconds.
+  path: Assets/Mushroom Forest/Shaders
+  artifactKey: Guid(5bdd3107c4802184eada4d54cb13df94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Shaders using Guid(5bdd3107c4802184eada4d54cb13df94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fb1bbfa163c918765996cc503386414') in 0.0005577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 

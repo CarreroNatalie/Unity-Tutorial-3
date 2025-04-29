@@ -15,7 +15,7 @@ C:/Users/oreo8/OneDrive/Documents/GitHub/Unity-Tutorial-3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55924
+56409
 -job-worker-count
 11
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/oreo8/OneDrive/Documents/GitHub/Unity-Tutorial-3
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [30780]  Target information:
+Player connection [27616]  Target information:
 
-Player connection [30780]  * "[IP] 10.2.51.23 [Port] 0 [Flags] 2 [Guid] 1872416804 [EditorId] 1872416804 [Version] 1048832 [Id] WindowsEditor(7,allison) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27616]  * "[IP] 10.2.51.10 [Port] 0 [Flags] 2 [Guid] 1132677404 [EditorId] 1132677404 [Version] 1048832 [Id] WindowsEditor(7,allison) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [30780] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [30780] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27616] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27616] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,8 +76,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.90 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
+Refreshing native plugins compatible for Editor in 3.38 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
 Initialize engine version: 6000.0.40f1 (157d81624ddf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/oreo8/OneDrive/Documents/GitHub/Unity-Tutorial-3/Assets
@@ -87,55 +87,55 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
     Vendor:   NVIDIA
     VRAM:     16050 MB
-    Driver:   32.0.15.6094
+    Driver:   32.0.15.7283
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.004548 seconds.
-- Loaded All Assemblies, in  0.278 seconds
+Registered in 0.003531 seconds.
+- Loaded All Assemblies, in  0.295 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 208 ms
+Android Extension - Scanning For ADB Devices 194 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.489 seconds
-Domain Reload Profiling: 765ms
-	BeginReloadAssembly (96ms)
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 732ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (107ms)
-		LoadAssemblies (94ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (108ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (104ms)
-			TypeCache.Refresh (103ms)
-				TypeCache.ScanAssembly (94ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (100ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (489ms)
+	FinalizeReload (439ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
+		SetupLoadedEditorAssemblies (409ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (290ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (84ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			InitializePlatformSupportModulesInManaged (265ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +144,8 @@ Domain Reload Profiling: 765ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.611 seconds
-Refreshing native plugins compatible for Editor in 2.11 ms, found 6 plugins.
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.600 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 6 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -177,52 +177,1171 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.716 seconds
-Domain Reload Profiling: 1322ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 1166ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (425ms)
-		LoadAssemblies (300ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (306ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (140ms)
-				TypeCache.ScanAssembly (126ms)
-			BuildScriptInfoCaches (43ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (118ms)
+			BuildScriptInfoCaches (40ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (716ms)
+	FinalizeReload (571ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (570ms)
+		SetupLoadedEditorAssemblies (450ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.32 ms, found 6 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 231 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7031 unused Assets / (4.3 MB). Loaded Objects now: 7733.
-Memory consumption went from 176.0 MB to 171.7 MB.
-Total: 5.315100 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.301900 ms MarkObjects: 3.131900 ms  DeleteObjects: 1.434300 ms)
+Unloading 271 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7160 unused Assets / (6.1 MB). Loaded Objects now: 7879.
+Memory consumption went from 187.2 MB to 181.1 MB.
+Total: 6.676700 ms (FindLiveObjects: 0.463600 ms CreateObjectMapping: 0.281000 ms MarkObjects: 4.130400 ms  DeleteObjects: 1.800800 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.536 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 6 plugins.
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.518 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.614 seconds
+Domain Reload Profiling: 1129ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.46 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7156 unused Assets / (6.3 MB). Loaded Objects now: 7895.
+Memory consumption went from 231.0 MB to 224.7 MB.
+Total: 8.789100 ms (FindLiveObjects: 0.745300 ms CreateObjectMapping: 0.523400 ms MarkObjects: 4.650300 ms  DeleteObjects: 2.868300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 111995.087224 seconds.
+  path: Assets/Scenes/MenuScene.unity
+  artifactKey: Guid(8aabe31d2bb4fe746a37b77c7ffa4302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuScene.unity using Guid(8aabe31d2bb4fe746a37b77c7ffa4302) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ce4a28dba5c73bae7404c494ea7de9e') in 0.0080643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.930305 seconds.
+  path: Assets/Scenes/VR Scenes.unity
+  artifactKey: Guid(5d0e7b83a108105419ad2e2a56429844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VR Scenes.unity using Guid(5d0e7b83a108105419ad2e2a56429844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a533f3cc9012bd4b8c97eb855bbd5d39') in 0.0016502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.521 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.565 seconds
+Domain Reload Profiling: 1083ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (565ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.46 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7156 unused Assets / (6.2 MB). Loaded Objects now: 7900.
+Memory consumption went from 207.0 MB to 200.8 MB.
+Total: 8.221500 ms (FindLiveObjects: 0.594100 ms CreateObjectMapping: 0.496000 ms MarkObjects: 4.484400 ms  DeleteObjects: 2.645700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 141.796470 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/AC Light.mat
+  artifactKey: Guid(ba691c825db204446a46e55b1e441928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/AC Light.mat using Guid(ba691c825db204446a46e55b1e441928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d5d6c4e3f106f67880aa6e17f859fd4') in 0.3193916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Computer Spot Light Box.mat
+  artifactKey: Guid(820cf73bf50873e44a5e57143e6d2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Computer Spot Light Box.mat using Guid(820cf73bf50873e44a5e57143e6d2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dbe5fbce21325423fbca654b86048aa') in 0.0099096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Monitor Mat.mat
+  artifactKey: Guid(b97ae039ce5b88148b8f5711cc887a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Monitor Mat.mat using Guid(b97ae039ce5b88148b8f5711cc887a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2cb078c4ae354ec2f9656134aedf74a') in 0.0120038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Table 3.png
+  artifactKey: Guid(d4beabcb49deabf43886e5a3178ad5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Table 3.png using Guid(d4beabcb49deabf43886e5a3178ad5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81dd4fef30e012ea43f69002209599bc') in 0.0164503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Mat.mat
+  artifactKey: Guid(ed911ee68c9a56148ad2a226f9df7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Mat.mat using Guid(ed911ee68c9a56148ad2a226f9df7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cadfe7061dd9e4dc59b1dacedf6b549d') in 0.0189925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Computer Light Glass.mat
+  artifactKey: Guid(8698521cd365e4745bf1748f3858ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Computer Light Glass.mat using Guid(8698521cd365e4745bf1748f3858ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cc3453953dca210edfe2cf86bead0b0') in 0.0269909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.982935 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Materials
+  artifactKey: Guid(cbdbcb821793c19478a280f56656e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Materials using Guid(cbdbcb821793c19478a280f56656e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c6b799cdb3bd635c70572bb891a2ac1') in 0.0005334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014172 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Materials/Table 3.mat
+  artifactKey: Guid(0e1315befd6edb446a975c293fb26a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Materials/Table 3.mat using Guid(0e1315befd6edb446a975c293fb26a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27315c05bc8e1d9e40358d2de26bb656') in 0.0177651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.949258 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Air Conditioner.fbx
+  artifactKey: Guid(b24fc62430861744ea4d4329011d083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Air Conditioner.fbx using Guid(b24fc62430861744ea4d4329011d083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '231c156a38f74561ca288536f8cb73bd') in 0.139925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Bookshelf.fbx
+  artifactKey: Guid(682255df230a91746a29206f64410b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Bookshelf.fbx using Guid(682255df230a91746a29206f64410b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1603b733d88c51f079af8d48af7c7e64') in 0.0320634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Table 1.fbx
+  artifactKey: Guid(7f127f6486578e246bd11e80cfc3a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Table 1.fbx using Guid(7f127f6486578e246bd11e80cfc3a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d0b5055f2ad4222374bdc6afa6da42') in 0.0294296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Computer Case.fbx
+  artifactKey: Guid(5e8e80b1bde285c46946700da02dadc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Computer Case.fbx using Guid(5e8e80b1bde285c46946700da02dadc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ec92a3184c8ed3b7beaa95e45e0980') in 0.0358031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Office Chair.fbx
+  artifactKey: Guid(17df80efefcb5904a8003e062b0546d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Office Chair.fbx using Guid(17df80efefcb5904a8003e062b0546d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '456c9413bac1595dbc144b9b6137bd55') in 0.0648098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Table 3.fbx
+  artifactKey: Guid(0c6e74c988dcf374baa937b3022475d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Table 3.fbx using Guid(0c6e74c988dcf374baa937b3022475d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e37eaf321da05f431a3581a068fa2ae') in 0.0232215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Suitcase.fbx
+  artifactKey: Guid(86eddd495f8cdbb4ba0a5c9869025ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Suitcase.fbx using Guid(86eddd495f8cdbb4ba0a5c9869025ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d4bd6d8b3704eb4224f8adf898d344') in 0.0535975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Remote.fbx
+  artifactKey: Guid(2d5b087eb12b51c479f6ce7482d8f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Remote.fbx using Guid(2d5b087eb12b51c479f6ce7482d8f42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a912410a05503beeb3d0a1e23d138f3') in 0.0224862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Paper Bottle.fbx
+  artifactKey: Guid(c19e6956b643b0d4e974c4271a7ead51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Paper Bottle.fbx using Guid(c19e6956b643b0d4e974c4271a7ead51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea06968a6e638f27bca9431dd120c27d') in 0.0246343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Kettle.fbx
+  artifactKey: Guid(9a599bd2e41f4d24586f02b75f611418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Kettle.fbx using Guid(9a599bd2e41f4d24586f02b75f611418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3c86d4fc8fda46b9600b458724109e') in 0.0227632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Bed.fbx
+  artifactKey: Guid(a7c1003deb3bc144e889735fbb38584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Bed.fbx using Guid(a7c1003deb3bc144e889735fbb38584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4eb09a740b16d134ed7bf923b4484800') in 0.0574422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Keyboard.fbx
+  artifactKey: Guid(2cbabcf6b1d965f47adcfc1635a9d698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Keyboard.fbx using Guid(2cbabcf6b1d965f47adcfc1635a9d698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da565653c04fff749b448885dea1e439') in 0.230909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Bookcase Parts.fbx
+  artifactKey: Guid(8cd2f50e47a71f146a013a950fe4ba59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Bookcase Parts.fbx using Guid(8cd2f50e47a71f146a013a950fe4ba59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abbd0cb53b30097d4fbb95754fae10c3') in 0.0775575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Backpack.fbx
+  artifactKey: Guid(ca9bc06c2d31f4047ac4ad0185980925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Backpack.fbx using Guid(ca9bc06c2d31f4047ac4ad0185980925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3c0c76eeb5baf6b6a46b0d2d9dd0ae8') in 0.0315448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Room.fbx
+  artifactKey: Guid(89946e947dce1fe44b9c914de16aab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Room.fbx using Guid(89946e947dce1fe44b9c914de16aab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '775eb7c41730c13c62ece98cdd461f8a') in 0.0780861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Power Strip.fbx
+  artifactKey: Guid(1f114a71e35213f4a9e14ccc5295d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Power Strip.fbx using Guid(1f114a71e35213f4a9e14ccc5295d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfea4b834defdef61c6a9153d553ae8') in 0.0335189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models/Ceilling Light.fbx
+  artifactKey: Guid(306843bc4279b5749aefdc82a24f0a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models/Ceilling Light.fbx using Guid(306843bc4279b5749aefdc82a24f0a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7368bc5c1ca57711059e79dfb6fdddff') in 1.3442563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.353956 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Air Conditioner Ext.prefab
+  artifactKey: Guid(0291aaffe4788f44093f251e3e5f74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Air Conditioner Ext.prefab using Guid(0291aaffe4788f44093f251e3e5f74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e88c9ba83037acde0ac7d9fe4c807455') in 0.027119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Computer Case.prefab
+  artifactKey: Guid(04f08f292eba51c42b3221947ffc83bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Computer Case.prefab using Guid(04f08f292eba51c42b3221947ffc83bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a462a72e71c7865f2898a7c88cb17c07') in 0.012274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Backpack.prefab
+  artifactKey: Guid(c66cf9cc42a8a5248975379bfb94eb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Backpack.prefab using Guid(c66cf9cc42a8a5248975379bfb94eb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '030b63c4f67ec1a8ac909b02dd85e8cf') in 0.0146879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Computer Mouse Pack.prefab
+  artifactKey: Guid(ac687bfd5e89c7a459eaa2e48e1fe8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Computer Mouse Pack.prefab using Guid(ac687bfd5e89c7a459eaa2e48e1fe8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '807d6aa61eb8cf3b12114c689d1d6bb4') in 0.0186838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Power Strip.prefab
+  artifactKey: Guid(684f4ff211a920b49a598013f61b6596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Power Strip.prefab using Guid(684f4ff211a920b49a598013f61b6596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44a645c025bd463febaa1eb435b19046') in 0.0125426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Romote Controller.prefab
+  artifactKey: Guid(0b620c8ac0b5f56478aefb581e96584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Romote Controller.prefab using Guid(0b620c8ac0b5f56478aefb581e96584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48fc3d5ac9fce8a200bc7aedfd3f8859') in 0.0191666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Suitcase.prefab
+  artifactKey: Guid(8a26cc9a385595b40a0c16afeac032fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Suitcase.prefab using Guid(8a26cc9a385595b40a0c16afeac032fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0918d224856b9664910992b1957cc6f') in 0.0111514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Hook.prefab
+  artifactKey: Guid(7de0c19ef8acace4892b5f8c8847bfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Hook.prefab using Guid(7de0c19ef8acace4892b5f8c8847bfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf5b6790435da1f5bac7d2b06e41c137') in 0.0109372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Clock.prefab
+  artifactKey: Guid(d7dce48e404868c46a862ca531fddf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Clock.prefab using Guid(d7dce48e404868c46a862ca531fddf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf9d6b45ad0ddd020888b735ff4c22fd') in 0.0112129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Books.prefab
+  artifactKey: Guid(5fbbb350580e54a428cb4ddbc42369ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Books.prefab using Guid(5fbbb350580e54a428cb4ddbc42369ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86d7b8f2605964bcfd4e0cf888052978') in 0.0141717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Table 2.prefab
+  artifactKey: Guid(503151dd7b8b91141a7f119d0090bbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Table 2.prefab using Guid(503151dd7b8b91141a7f119d0090bbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96d9ced06727223f4c47c92dfa34c1cd') in 0.0114539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Office Chair.prefab
+  artifactKey: Guid(4343c522f48efe0438dca65d10544789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Office Chair.prefab using Guid(4343c522f48efe0438dca65d10544789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0375206f98266af1802f22bf6737b6b7') in 0.0105304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Bookcase Dividers.prefab
+  artifactKey: Guid(5791aaf643067fc4b9091ba6f64cda21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Bookcase Dividers.prefab using Guid(5791aaf643067fc4b9091ba6f64cda21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67a84598b9b43485a40d5140a41d6fc4') in 0.0133432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Ceilling Light.prefab
+  artifactKey: Guid(943bb5fa6ac782143b7561037a737f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Ceilling Light.prefab using Guid(943bb5fa6ac782143b7561037a737f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fc5f7aec165de69f344ae314f2164d0') in 0.0150085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Computer.prefab
+  artifactKey: Guid(0cfb98e1488cb9948a9dc462f0771e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Computer.prefab using Guid(0cfb98e1488cb9948a9dc462f0771e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e386f387d17cf20bcf283fb83e4dcfd6') in 0.0183767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Door.prefab
+  artifactKey: Guid(c5f868f465e50e943902cf18499f2d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Door.prefab using Guid(c5f868f465e50e943902cf18499f2d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '922c3d292729c547c7f777cdd2189a7d') in 0.0117971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Small Chair.prefab
+  artifactKey: Guid(156dceeccdddba04c9fe12fa39c5af40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Small Chair.prefab using Guid(156dceeccdddba04c9fe12fa39c5af40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f20e20096e3e8babd429c417ca165d1') in 0.0097455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Pen Container.prefab
+  artifactKey: Guid(8b529028f4d278c4c8a8aa58101f0008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Pen Container.prefab using Guid(8b529028f4d278c4c8a8aa58101f0008) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea8afd16cb782b4eb33ff40eb08ce87b') in 0.0193053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.139912 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Optional
+  artifactKey: Guid(2b392bb4bfca1944eb68b3686dcb5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Optional using Guid(2b392bb4bfca1944eb68b3686dcb5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15932a37ad87350b7d1fe717ef0e42db') in 0.0005088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138378 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Optional/Floor.prefab
+  artifactKey: Guid(550f351788fe79541a81557914e2efee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Optional/Floor.prefab using Guid(550f351788fe79541a81557914e2efee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e284e52fc48a9bf58d492ef11437bd2d') in 0.0171588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 352.704079 seconds.
+  path: Assets/Materials/Relaxing Capybara on rooftop.jpg
+  artifactKey: Guid(1fedf682df2186948ae95f823283610e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Relaxing Capybara on rooftop.jpg using Guid(1fedf682df2186948ae95f823283610e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c552c3d1669982c010b3d6a3789bcae9') in 0.0323776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png
+  artifactKey: Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png using Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9e8e802ebda073a727e78382d2bc12c') in 0.0230253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png
+  artifactKey: Guid(b7bad1260586fa746a0b67e930892936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png using Guid(b7bad1260586fa746a0b67e930892936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f61d38f9c9529541ed413bf6c2acdab8') in 0.0146345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png
+  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6da22a11252d69830c1ba4c7c31e97b4') in 0.0203197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 481.743163 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials
+  artifactKey: Guid(7aaf1b7ca321cd148b7b2ab1fb87e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials using Guid(7aaf1b7ca321cd148b7b2ab1fb87e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '561a45fc08a7b4f83f620b5ae51be6a5') in 0.0008724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.477543 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Mat.mat
+  artifactKey: Guid(ed911ee68c9a56148ad2a226f9df7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Mat.mat using Guid(ed911ee68c9a56148ad2a226f9df7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c717f1a868902f13a752f4516bf17ae6') in 0.0193731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.317897 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/New Material.mat
+  artifactKey: Guid(97ad3e188cc3a364e84e48948a412354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/New Material.mat using Guid(97ad3e188cc3a364e84e48948a412354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a43702b18f92ecd72d1da1df6a7f78d') in 0.017532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.445552 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Materials/Table 3.mat
+  artifactKey: Guid(0e1315befd6edb446a975c293fb26a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Materials/Table 3.mat using Guid(0e1315befd6edb446a975c293fb26a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d327ffc1a3f59f7c594b6c9518c62b7') in 0.009275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 561.855163 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models
+  artifactKey: Guid(90a5974969e85834f8306496fd3cda4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models using Guid(90a5974969e85834f8306496fd3cda4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3c5e7a9fcfbeba8cc4597cce5e6d4df') in 0.0023458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037907 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster.fbx
+  artifactKey: Guid(e8cf87fef9298444ca38948b2c8a4073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster.fbx using Guid(e8cf87fef9298444ca38948b2c8a4073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10b292766b2aeb0e309c419d6da2b558') in 1.6751332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx
+  artifactKey: Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d57684f55a289f4c8d551336c32b52f') in 0.0150979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx
+  artifactKey: Guid(46c1c422ff6897f49a404b012dc924d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx using Guid(46c1c422ff6897f49a404b012dc924d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1138183a37372b574523d158e5adfe0') in 0.0178546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx
+  artifactKey: Guid(e3493855a112e8248a2ea2c9828a51a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx using Guid(e3493855a112e8248a2ea2c9828a51a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e020574a0a2225bdb6db940597aaebda') in 0.0170762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx
+  artifactKey: Guid(63e02ddb08ce42da868504e1333d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx using Guid(63e02ddb08ce42da868504e1333d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7408832bf948d67cb4648dc2c781a98') in 0.0190413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.526456 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders
+  artifactKey: Guid(388cb625f9bdf7444b7b2df5b64a84c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders using Guid(388cb625f9bdf7444b7b2df5b64a84c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '879b85a56b4c3d3651d6ecf80a193474') in 0.0006346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.553432 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Textures
+  artifactKey: Guid(91a77be4c84205e4ba7056605bdb9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Textures using Guid(91a77be4c84205e4ba7056605bdb9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ffbb5312589647c6ae9a5ddaba925b3') in 0.0014114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049489 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Textures/DefaultMaterial_AO.png
+  artifactKey: Guid(85e675893a909864d9c237e20202651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Textures/DefaultMaterial_AO.png using Guid(85e675893a909864d9c237e20202651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7924d96d1190ecf983df8d646cf23a') in 0.012122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.907976 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Effect
+  artifactKey: Guid(b9677392a1d99804ba73e0ba70094b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Effect using Guid(b9677392a1d99804ba73e0ba70094b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac930532c58c15b82f763c895afe01a3') in 0.0006782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054069 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Effect/Alpha.mat
+  artifactKey: Guid(a1df6fb7dead5ed4b87669cb6dfb8208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Effect/Alpha.mat using Guid(a1df6fb7dead5ed4b87669cb6dfb8208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f2d125f42c2eee7f1886bf68a00cdae') in 0.0088286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Effect/Wind Stripe.prefab
+  artifactKey: Guid(53c8bc65bc621c346af1fccc154a5ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Effect/Wind Stripe.prefab using Guid(53c8bc65bc621c346af1fccc154a5ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71792a6813cc45d90d6a97abb31800b6') in 0.0091094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.876490 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Pipelines
+  artifactKey: Guid(5a918ed61e54e4d4f82f065448d1027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Pipelines using Guid(5a918ed61e54e4d4f82f065448d1027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7efaea48ddf0637f4dc72106d6d67df4') in 0.0005388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.624005 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs
+  artifactKey: Guid(49c6624de555e0a4b923f1c0908b222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs using Guid(49c6624de555e0a4b923f1c0908b222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8019cd073521cd1705c46df4c4876278') in 0.0004884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062652 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Bed.prefab
+  artifactKey: Guid(b0ced93e76c40874289af69ac2c9df09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Bed.prefab using Guid(b0ced93e76c40874289af69ac2c9df09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa9ae1667cfce1d7650371200feacba') in 0.0208483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.329168 seconds.
+  path: Assets/Materials/FloorMat.mat
+  artifactKey: Guid(26a7cae3438dea1419abcc6b92bff568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FloorMat.mat using Guid(26a7cae3438dea1419abcc6b92bff568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73cabb200eb3efc1cf0174aa12f5c053') in 0.0202894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.557 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 1125ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (569ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.25 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7157 unused Assets / (5.5 MB). Loaded Objects now: 7975.
+Memory consumption went from 244.8 MB to 239.3 MB.
+Total: 8.092800 ms (FindLiveObjects: 1.002200 ms CreateObjectMapping: 0.266600 ms MarkObjects: 4.417600 ms  DeleteObjects: 2.405300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.516 seconds
+Refreshing native plugins compatible for Editor in 2.30 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.577 seconds
+Domain Reload Profiling: 1091ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (445ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.95 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7156 unused Assets / (6.3 MB). Loaded Objects now: 7978.
+Memory consumption went from 244.6 MB to 238.3 MB.
+Total: 9.613900 ms (FindLiveObjects: 0.738800 ms CreateObjectMapping: 0.635100 ms MarkObjects: 5.285300 ms  DeleteObjects: 2.953400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.533 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.564 seconds
+Domain Reload Profiling: 1096ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (565ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (432ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.30 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7156 unused Assets / (6.2 MB). Loaded Objects now: 7981.
+Memory consumption went from 244.6 MB to 238.5 MB.
+Total: 8.143100 ms (FindLiveObjects: 0.635200 ms CreateObjectMapping: 0.517900 ms MarkObjects: 4.478400 ms  DeleteObjects: 2.509800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.519 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 1092ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.40 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7156 unused Assets / (6.3 MB). Loaded Objects now: 7984.
+Memory consumption went from 244.7 MB to 238.3 MB.
+Total: 8.457000 ms (FindLiveObjects: 0.628800 ms CreateObjectMapping: 0.532100 ms MarkObjects: 4.547900 ms  DeleteObjects: 2.746600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.511 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 1079ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (114ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.06 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7156 unused Assets / (6.2 MB). Loaded Objects now: 7987.
+Memory consumption went from 244.7 MB to 238.5 MB.
+Total: 9.242400 ms (FindLiveObjects: 0.832000 ms CreateObjectMapping: 0.520000 ms MarkObjects: 5.158100 ms  DeleteObjects: 2.730800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 637.626895 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/AC Light.mat
+  artifactKey: Guid(ba691c825db204446a46e55b1e441928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/AC Light.mat using Guid(ba691c825db204446a46e55b1e441928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '970eaca968cf0cbff30a68f645c1ea01') in 0.3334543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Computer Spot Light Box.mat
+  artifactKey: Guid(820cf73bf50873e44a5e57143e6d2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Computer Spot Light Box.mat using Guid(820cf73bf50873e44a5e57143e6d2ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a4f0a1c2f6fda7d6f478aac3cfb92ff') in 0.016426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/New Material.mat
+  artifactKey: Guid(97ad3e188cc3a364e84e48948a412354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/New Material.mat using Guid(97ad3e188cc3a364e84e48948a412354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c94d10b593f6cf8e5da5ea180cb9a5b') in 0.0184461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Computer Light Glass.mat
+  artifactKey: Guid(8698521cd365e4745bf1748f3858ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Computer Light Glass.mat using Guid(8698521cd365e4745bf1748f3858ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddfcdf080a143ba744db368a775cd871') in 0.0108787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Desk Lamp Light.mat
+  artifactKey: Guid(eaf7ff63c212ad2428d8b9be5ee1e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Desk Lamp Light.mat using Guid(eaf7ff63c212ad2428d8b9be5ee1e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4473432a0e3e53ea48a693491fa900ea') in 0.0127565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 6 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -251,67 +1370,926 @@ Mono: successfully reloaded assembly
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 - Finished resetting the current domain, in  0.574 seconds
-Domain Reload Profiling: 1109ms
-	BeginReloadAssembly (138ms)
+Domain Reload Profiling: 1113ms
+	BeginReloadAssembly (153ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
+		CreateAndSetChildDomain (41ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (346ms)
-		LoadAssemblies (273ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (265ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (119ms)
-			ResolveRequiredComponents (10ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (574ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.70 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7157 unused Assets / (5.8 MB). Loaded Objects now: 8010.
+Memory consumption went from 249.0 MB to 243.1 MB.
+Total: 7.489500 ms (FindLiveObjects: 0.710000 ms CreateObjectMapping: 0.494500 ms MarkObjects: 3.906700 ms  DeleteObjects: 2.376400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.522 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 1095ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (9ms)
 	FinalizeReload (575ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (440ms)
+		SetupLoadedEditorAssemblies (437ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.09 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7027 unused Assets / (4.2 MB). Loaded Objects now: 7749.
-Memory consumption went from 220.3 MB to 216.1 MB.
-Total: 4.907300 ms (FindLiveObjects: 0.430800 ms CreateObjectMapping: 0.189900 ms MarkObjects: 2.958600 ms  DeleteObjects: 1.327100 ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.23 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7156 unused Assets / (5.7 MB). Loaded Objects now: 8013.
+Memory consumption went from 248.8 MB to 243.1 MB.
+Total: 8.222300 ms (FindLiveObjects: 0.691600 ms CreateObjectMapping: 0.553200 ms MarkObjects: 4.622200 ms  DeleteObjects: 2.354000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 1075ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (563ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.94 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7156 unused Assets / (6.3 MB). Loaded Objects now: 8016.
+Memory consumption went from 248.8 MB to 242.5 MB.
+Total: 8.470500 ms (FindLiveObjects: 0.624900 ms CreateObjectMapping: 0.501300 ms MarkObjects: 4.580000 ms  DeleteObjects: 2.762700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 26404.031619 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef
-  artifactKey: Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef using Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b41c6d6d2d87a67621f050dd859b0c04') in 0.0103934 seconds
+  Time since last request: 4739.776484 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Kettle Light.mat
+  artifactKey: Guid(89f3d422060013846bfb2cc953485ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Kettle Light.mat using Guid(89f3d422060013846bfb2cc953485ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a3b2dc226cac8698fac5d68f05271a1') in 1.8116221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.583455 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_tall.fbm
+  artifactKey: Guid(fc4580cb077ccc24ba1d1a095c0bb910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_tall.fbm using Guid(fc4580cb077ccc24ba1d1a095c0bb910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9f3e7e9725b2d210babed9b65e75755') in 0.0007332 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
+  Time since last request: 0.335739 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_wavy.fbm
+  artifactKey: Guid(aff4c8b02c851dd4680bb9476c06e821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_wavy.fbm using Guid(aff4c8b02c851dd4680bb9476c06e821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbbb8f75bfbdc4fae94798f86d30e6c2') in 0.0005092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.615308 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_bell.fbm
+  artifactKey: Guid(26df3788e26fd6e439cfe453553f2871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_bell.fbm using Guid(26df3788e26fd6e439cfe453553f2871) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '148cbca91235049a1af991d66e89e954') in 0.0005044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.012234 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_round.fbm
+  artifactKey: Guid(ea2d0fbb69ff3d340be991bcb24319aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_round.fbm using Guid(ea2d0fbb69ff3d340be991bcb24319aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0bc8b8ca8ea60aff1938a6f497b68cd') in 0.0005062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.872828 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_spiral.fbm
+  artifactKey: Guid(3d2ada2c967645941b285ea8fe6dff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_spiral.fbm using Guid(3d2ada2c967645941b285ea8fe6dff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c37ae1ea38e41daf609ad4443cdd6a50') in 0.0005012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.412994 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_simple.fbm
+  artifactKey: Guid(01826a84ee24c7649b5ea119af72dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_simple.fbm using Guid(01826a84ee24c7649b5ea119af72dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '026e155155a665ac6482577f6c1d65c6') in 0.0005004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.536433 seconds.
+  path: Assets/Mushroom Forest/Models/mushroom_pointy.fbm
+  artifactKey: Guid(8eeed15239f06fa4dafed2f0705da289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Models/mushroom_pointy.fbm using Guid(8eeed15239f06fa4dafed2f0705da289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b11b0631d0bc315d2c4cd1c1a3a097e5') in 0.0004905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.992026 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures
+  artifactKey: Guid(ef5c08a8bb24b5745b8169d551375d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures using Guid(ef5c08a8bb24b5745b8169d551375d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ab8e8fdedf6fde1c85af900d158957c') in 0.0005989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010951 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_bell_brown.tga
+  artifactKey: Guid(2c4e3519a198473408111e7509cd62c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_bell_brown.tga using Guid(2c4e3519a198473408111e7509cd62c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9d22536a3ddc22aa03bf0b1d2804f37') in 0.020049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_simple_orange.tga
+  artifactKey: Guid(3a296ad70e1185c47a05d5ac431842c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_simple_orange.tga using Guid(3a296ad70e1185c47a05d5ac431842c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '469671639cb40f7d092b68e776e291a0') in 0.0081233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_tall_red.tga
+  artifactKey: Guid(5bd03088b810c9c4c9aab2c4824c54c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_tall_red.tga using Guid(5bd03088b810c9c4c9aab2c4824c54c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ecc745171b4e41e483db6a41a9af202') in 0.0085096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_spiral_normal.tga
+  artifactKey: Guid(2d6f7f38210ec0345840cd41ed07bea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_spiral_normal.tga using Guid(2d6f7f38210ec0345840cd41ed07bea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b5e5101dd8797b3c0611ef538b6f1cb') in 0.0164873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_wavy_normal.tga
+  artifactKey: Guid(bc1b49c370ed9c848901c6e651b3bc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_wavy_normal.tga using Guid(bc1b49c370ed9c848901c6e651b3bc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97d31e9d5c58bbeec90efccb07434278') in 0.0082952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_wavy_specular.tga
+  artifactKey: Guid(d1215e54f84f43943ad77fa9273f3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_wavy_specular.tga using Guid(d1215e54f84f43943ad77fa9273f3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a96a88c78ea9dc22e12d9b8bfd0b9a2') in 0.0078342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/XR Device Simulator Controls.inputactions
-  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26113f58267d61741316b7864c9ff29e') in 0.0143037 seconds
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_pointy_normal.tga
+  artifactKey: Guid(b2dfb1b456d9a3f40be6067be060dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_pointy_normal.tga using Guid(b2dfb1b456d9a3f40be6067be060dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d980c8e3040c7c2f8077954f4f1df4a') in 0.0083753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_wavy_green.tga
+  artifactKey: Guid(e579f34793c3f924584b85d675ae2a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_wavy_green.tga using Guid(e579f34793c3f924584b85d675ae2a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a2cf538e490b9bb0b3be1c49fa57acf') in 0.0080486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_bell_pink.tga
+  artifactKey: Guid(5bd615802c4a9f44292dfde7415a8252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_bell_pink.tga using Guid(5bd615802c4a9f44292dfde7415a8252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41d722fdd4ffc414be1326a3dfc0211f') in 0.0077201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_wavy_brown.tga
+  artifactKey: Guid(818074bb353ee874ea31c4922f68c9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_wavy_brown.tga using Guid(818074bb353ee874ea31c4922f68c9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85a98f3f1a1c2c2b759922405edbb87f') in 0.0081508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_spiral_blue.tga
+  artifactKey: Guid(e7e406f631449614781f0a9873275cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_spiral_blue.tga using Guid(e7e406f631449614781f0a9873275cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a85fe3d7323e33ea0175249f001195c9') in 0.0078117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_simple_lilac.tga
+  artifactKey: Guid(140de451c79cba641878041fc2186bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_simple_lilac.tga using Guid(140de451c79cba641878041fc2186bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe85de11f7514552f78324c64226371') in 0.0080636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_tall_specular.tga
+  artifactKey: Guid(a10b63cda4b78be4ea1f3da4508ccb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_tall_specular.tga using Guid(a10b63cda4b78be4ea1f3da4508ccb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f71000a72e7a7a646f7768c9f49245f0') in 0.007729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_round_brown.tga
+  artifactKey: Guid(45a954ed274924843959f6e7c2f5c6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_round_brown.tga using Guid(45a954ed274924843959f6e7c2f5c6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f76722eadeccde1982848470a719a3ee') in 0.0100927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_round_specular.tga
+  artifactKey: Guid(f036fe7689cec974ca544b4b5dd06d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_round_specular.tga using Guid(f036fe7689cec974ca544b4b5dd06d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b449990287e1891c70e111713db1509') in 0.0078553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_simple_specular.tga
+  artifactKey: Guid(dbc8e0ecd0d250d41b3001f614d7c58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_simple_specular.tga using Guid(dbc8e0ecd0d250d41b3001f614d7c58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5411a1fe043a760ca461f74340596c8') in 0.0079076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_simple_normal.tga
+  artifactKey: Guid(59fb094c65b0cbf41bd0d0e5f743fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_simple_normal.tga using Guid(59fb094c65b0cbf41bd0d0e5f743fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fab23c04558f1253c9a4822701598d47') in 0.0077636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mushroom Forest/Materials/Textures/mushroom_round_normal.tga
+  artifactKey: Guid(6baf022f8d3034f4caa7a97f8817a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Textures/mushroom_round_normal.tga using Guid(6baf022f8d3034f4caa7a97f8817a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31231ec70050b8c94e665e43b3a7b90c') in 0.0085668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.769519 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/General/OpenWindow.png
+  artifactKey: Guid(633d1ace045fe402a9b307cb58251aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/General/OpenWindow.png using Guid(633d1ace045fe402a9b307cb58251aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1943d63b21aad7c0bcbb433fa1aa9e20') in 0.0190787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-2.exr
+  artifactKey: Guid(c49ef192a57a5af42a728163b2468c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-2.exr using Guid(c49ef192a57a5af42a728163b2468c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2234e04c07548758adb4032d694d4ad6') in 0.0213773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-1.exr
+  artifactKey: Guid(5515cbebf3ef1144ebf8d50ed9091e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-1.exr using Guid(5515cbebf3ef1144ebf8d50ed9091e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac2a8b934a8a2df82d29cef57b5e8a27') in 0.017761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.530709 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/Asset.png
+  artifactKey: Guid(17d565bb4a7744b41b7e4dc7e3a09e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/Asset.png using Guid(17d565bb4a7744b41b7e4dc7e3a09e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0218af791198cdf587e2540cb7711e') in 0.0205818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png
+  artifactKey: Guid(db3e7b7c8db355e499429545071a0321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png using Guid(db3e7b7c8db355e499429545071a0321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fda05145589d8d95444c4290ef24bd6') in 0.0113929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif
+  artifactKey: Guid(f3fb518ec70eb4047b1c6ec34933fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif using Guid(f3fb518ec70eb4047b1c6ec34933fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f94f25edc9192ae97d6dee360c4d598e') in 0.0117274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png
+  artifactKey: Guid(2f8349570a152884fb6cf7ebdc8c18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png using Guid(2f8349570a152884fb6cf7ebdc8c18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b21c80d46dd9c6e719c43bc2d04c5415') in 0.0131206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.081632 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Textures/Concrete_Normal.tif
+  artifactKey: Guid(cdebec39dbf81a14688e1de8d12897b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Textures/Concrete_Normal.tif using Guid(cdebec39dbf81a14688e1de8d12897b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46c8ae8dacaad4755234960fb2d8fdd4') in 0.010377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009273 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/ControllerDevice/ControllerOverlayLinesLeft.png
+  artifactKey: Guid(cd4fe4c19a40743a6896069a50a394ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/ControllerDevice/ControllerOverlayLinesLeft.png using Guid(cd4fe4c19a40743a6896069a50a394ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33b77264a1a3a3220391806f172b8674') in 0.0112645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.409609 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/ControllerDevice/ControllerRight.png
+  artifactKey: Guid(17c263f6077f14b218b13656aacd9551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/ControllerDevice/ControllerRight.png using Guid(17c263f6077f14b218b13656aacd9551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23d4cca62d2fe695863772d7e99a2695') in 0.0159299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046233 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/General/CycleXRDevices.png
+  artifactKey: Guid(731e7aed8e9f540ac8bf2a7b66abdaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/General/CycleXRDevices.png using Guid(731e7aed8e9f540ac8bf2a7b66abdaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c424498fca83dd976e3d10bada044fea') in 0.0101926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.293434 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/General/DeviceSimUI_bg.png
+  artifactKey: Guid(d7348fb3f11ba4f6f933462328963785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/General/DeviceSimUI_bg.png using Guid(d7348fb3f11ba4f6f933462328963785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb28638ca5f88a815141b43be26241f6') in 0.0130048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009942 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d2fbb8e43d38779cb0dacd22abf6052') in 0.0210614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/hand.png
+  artifactKey: Guid(290d158031622c645aa55f8bd981be12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/hand.png using Guid(290d158031622c645aa55f8bd981be12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '888d1d9f99e846bfacf283e91ef1343a') in 0.0100481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.172992 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/Hand_Default.png
+  artifactKey: Guid(7d3dbc333af046c4193982e1166659dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/Hand_Default.png using Guid(7d3dbc333af046c4193982e1166659dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f78b208beccac9d8fdeffa6babf7c70e') in 0.0118447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/Hand_Grab.png
+  artifactKey: Guid(bd6b9153aa3b96f49b238bbf6ae68b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/Hand_Grab.png using Guid(bd6b9153aa3b96f49b238bbf6ae68b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa0622f3ef161b5c8dfcdf685de4b0f4') in 0.0148233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/Hand_Poke.png
+  artifactKey: Guid(a2586e6b399337f409118c79273dc29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/Hand_Poke.png using Guid(a2586e6b399337f409118c79273dc29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81e024e576de1912a71092a4716bcab1') in 0.0143278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928953 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/Hand_Thumb.png
+  artifactKey: Guid(3b2e62babc5249f42921c2cd027852cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Hands/Hand_Thumb.png using Guid(3b2e62babc5249f42921c2cd027852cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49d9dd9dcf8eb145666dab5de7a6a5d3') in 0.014187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/HeadDevice/HMDOverlay.png
+  artifactKey: Guid(fb2db2f40ceaf458085c82fc17cfe800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/HeadDevice/HMDOverlay.png using Guid(fb2db2f40ceaf458085c82fc17cfe800) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '998d70e4b81493415e8f841eaa911db5') in 0.0126101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caec9878674c8518e4453ab6f15200c9') in 0.0267881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/HeadDevice/MoveRotateTool.png
+  artifactKey: Guid(139237a044d8e4255b40bb472c842087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/HeadDevice/MoveRotateTool.png using Guid(139237a044d8e4255b40bb472c842087) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb05267f46a1937620aed5ddd6510901') in 0.0098491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/HeadDevice/Movement.png
+  artifactKey: Guid(1d56a2d39cfbb49149abbf0076259327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/HeadDevice/Movement.png using Guid(1d56a2d39cfbb49149abbf0076259327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffa1b92376d6d58be5a4288329f7fde3') in 0.0092717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Mouse/Mouse.png
+  artifactKey: Guid(f997d60d79a4e45cab6b1814e377a1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/Mouse/Mouse.png using Guid(f997d60d79a4e45cab6b1814e377a1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54f8ba06846c6cfbad35d320029f8644') in 0.0096337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/General/Locked.png
+  artifactKey: Guid(3aad042fcb57b4bed9d9a46b932df060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/General/Locked.png using Guid(3aad042fcb57b4bed9d9a46b932df060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68b482b4d85c33c35d0724c43973b4a3') in 0.0101251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png
+  artifactKey: Guid(a85d80c1edb5d2f458d42e79f78055b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png using Guid(a85d80c1edb5d2f458d42e79f78055b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '684d5e5fa40412ade667f65f57b65fa2') in 0.0119269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.213062 seconds.
+  path: Assets/Mushroom Forest/Extras
+  artifactKey: Guid(4105777e33218794cb687cfdc72afc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Extras using Guid(4105777e33218794cb687cfdc72afc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6658628b305f663a76beada425b9f4e3') in 0.0006709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041340 seconds.
+  path: Assets/Mushroom Forest/Extras/grey.mat
+  artifactKey: Guid(df6a44abc281c40419492f784c606ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Extras/grey.mat using Guid(df6a44abc281c40419492f784c606ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7376c2858b31d8aa7670d4e59bdf3a3e') in 0.0117932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 491.423053 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bc1d1f9e95df65a643a1a9d803c8625') in 0.0221945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6ad96e3b33f3c924bc482cd26f189e4') in 0.0109839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95accc6198c88482a610411fe860e1d2') in 0.0699178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f2c3fe6500d587adaeb9cbff4648867') in 0.0099337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '820c7a0edab42d9224a791d9b03769a7') in 1.2020216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f734ee5e7f02261056656279a75185b') in 0.0080992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
+  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a999f9743daef5b8499d562b403b6e7') in 0.0094173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e05a94c8d4a37e66fd18a36638ee6d6') in 0.0094615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9504fc83d4a4baea7682fe4744a1cbe') in 0.0092749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.698430 seconds.
+  path: Assets/Mushroom Forest/Materials/Materials/mushroom_bell_normal.mat
+  artifactKey: Guid(7582755c62e75924097c0891c6dd762f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/Materials/mushroom_bell_normal.mat using Guid(7582755c62e75924097c0891c6dd762f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2755af6be9d788766efbd84f583f376a') in 0.0103614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.056398 seconds.
+  path: Assets/Mushroom Forest/Materials/mushroom_bell_green.mat
+  artifactKey: Guid(4cda71790450ef14a9932b8285718b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Materials/mushroom_bell_green.mat using Guid(4cda71790450ef14a9932b8285718b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f00d34193a666ef37dc5e1dfe0d0ae0') in 0.0352166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <13c0c460649d4ce49f991e2c222fa635>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 1128ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (572ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.33 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7157 unused Assets / (6.2 MB). Loaded Objects now: 8057.
+Memory consumption went from 254.0 MB to 247.8 MB.
+Total: 8.785100 ms (FindLiveObjects: 0.702500 ms CreateObjectMapping: 0.645100 ms MarkObjects: 4.757000 ms  DeleteObjects: 2.678800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 186.562546 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_bell_green_01.prefab
+  artifactKey: Guid(ebc565880131f374da1c0c10209a21bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_bell_green_01.prefab using Guid(ebc565880131f374da1c0c10209a21bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '827711c2529dae00135db4e0aa52abe9') in 0.294262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_bell_green_03.prefab
+  artifactKey: Guid(ac4b31d110453c047ad79b3d5f3d0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_bell_green_03.prefab using Guid(ac4b31d110453c047ad79b3d5f3d0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec4114b39262b941da81f059403e313f') in 0.0128936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mushroom Forest/Prefabs/mushroom_wavy_brown_02.prefab
+  artifactKey: Guid(ef3910105b0b2444cb7ae77614d7def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mushroom Forest/Prefabs/mushroom_wavy_brown_02.prefab using Guid(ef3910105b0b2444cb7ae77614d7def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fb17cfad9d3ddea1ea9891da1c84281') in 0.0136644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.435926 seconds.
+  path: Assets/Fries and Seagull/Interior 01
+  artifactKey: Guid(8006ca354c2de974295e8c161060f344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01 using Guid(8006ca354c2de974295e8c161060f344) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c64f31b82a9877c3b44083965d4ab8bd') in 0.0005783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.935121 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Air Conditioner Int..prefab
+  artifactKey: Guid(bdc7239167fe13e438e108a6ae62fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Air Conditioner Int..prefab using Guid(bdc7239167fe13e438e108a6ae62fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88296d79391182ff41f7f19d51409665') in 0.0257825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Audio.prefab
+  artifactKey: Guid(963595dfb673b454bb16a8d7ae5687fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Audio.prefab using Guid(963595dfb673b454bb16a8d7ae5687fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '402e93243c48935f01a178dbe1c8c1d8') in 0.0192332 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/XR Device Hand Controls.inputactions
-  artifactKey: Guid(b72ab2a46d9094be38774d023beb4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/XR Device Hand Controls.inputactions using Guid(b72ab2a46d9094be38774d023beb4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d69d5aca70cc13d876bf838671f8a60') in 0.0015231 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Ceilling Light.prefab
+  artifactKey: Guid(943bb5fa6ac782143b7561037a737f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Ceilling Light.prefab using Guid(943bb5fa6ac782143b7561037a737f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b2804b3af4fbbaabb700c97ebd4da48') in 0.011732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Prefabs/Computer.prefab
+  artifactKey: Guid(0cfb98e1488cb9948a9dc462f0771e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Prefabs/Computer.prefab using Guid(0cfb98e1488cb9948a9dc462f0771e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '951abb2c91772ad28125e33ab75dd2d8') in 0.0221346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.809266 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Scripts
+  artifactKey: Guid(6d53207e3f1bc4f45946d6653fdded54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Scripts using Guid(6d53207e3f1bc4f45946d6653fdded54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f220dad16356d8de3d1b2f770d2f0ea') in 0.0005561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.460469 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Scripts/Utility
+  artifactKey: Guid(4205e4d388cc2f2418ec29e0ef118563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Scripts/Utility using Guid(4205e4d388cc2f2418ec29e0ef118563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a82fbc019c6381d28f6e1f33306554aa') in 0.0006227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.788172 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Scripts/Utility/Inspector
+  artifactKey: Guid(945700ab099344228d9004240dcb8ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Scripts/Utility/Inspector using Guid(945700ab099344228d9004240dcb8ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44dad684d94424397d7e9a0e19b4f9a3') in 0.000509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.526367 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Scripts/Setup
+  artifactKey: Guid(5ca56bc00c82071459b766e055b2c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Scripts/Setup using Guid(5ca56bc00c82071459b766e055b2c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec45519ec2052dfb7afe16d78e6fc351') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030291 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Scripts/Setup/Post Processing.prefab
+  artifactKey: Guid(0fb6d6eab8824d345a61cefac909ae57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Scripts/Setup/Post Processing.prefab using Guid(0fb6d6eab8824d345a61cefac909ae57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '450682420378ec36d46deae89a2cf223') in 0.0044715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.493682 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Models
+  artifactKey: Guid(232bfc8dd75004b4ea01e7043ad96678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Models using Guid(232bfc8dd75004b4ea01e7043ad96678) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5033bf17ab49d11df608fc5b36231be') in 0.0005003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.917044 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png
+  artifactKey: Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png using Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92ffde70a7dfc30b1a7a934752cc1d77') in 0.0277784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.608612 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82cba6df6c38244dad2e7595762a8802') in 0.0087078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/ControllerDevice/xr_ctlr.png
+  artifactKey: Guid(7d7a2f6c5e996e24388af5a8227afdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/XR Device Simulator/UI/ControllerDevice/xr_ctlr.png using Guid(7d7a2f6c5e996e24388af5a8227afdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeca3aa603291516ca4b11301ee0de60') in 0.0104251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.103139 seconds.
+  path: Assets/Fries and Seagull/Interior 01/Materials/Computer Light Glass 1.mat
+  artifactKey: Guid(e13b4c5993313194ea57f72774f0b0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fries and Seagull/Interior 01/Materials/Computer Light Glass 1.mat using Guid(e13b4c5993313194ea57f72774f0b0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05ffd6aff04cc35e2b0e74bb6ff32bdc') in 0.0175791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
