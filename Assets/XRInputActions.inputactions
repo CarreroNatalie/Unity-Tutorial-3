@@ -1,0 +1,34 @@
+{
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "XR",
+            "id": "8c2c0fa4-ad3f-4145-a3d6-a76ed5b0a4e1",
+            "actions": [
+                {
+                    "name": "EatButton",
+                    "type": "Button",
+                    "id": "90c6db52-9c60-4041-991d-9cbe1f705e25",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "60d72f36-ad5b-442e-b947-e6a259d23862",
+                    "path": "<XRController>{RightHand}/{PrimaryTrigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EatButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
