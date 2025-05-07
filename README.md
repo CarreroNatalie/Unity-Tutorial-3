@@ -6,13 +6,13 @@
 
 # How To Navigate The VR Experience:
   ## Main Menu
-    The VR Experience begins with a Menu screen where User's can press "START" to begin the VR experience, "CONTROLS" to review user controls, and "EXIT" to close the program.
+  The VR Experience begins with a Menu screen where User's can press "START" to begin the VR experience, "CONTROLS" to review user controls, and "EXIT" to close the program.
   ## Movement:
-    User's will use the thumbstick to move around the environment. Head tracking will be used to manuever the in-game camera (look up/down/left/right). 
+  User's will use the thumbstick to move around the environment. Head tracking will be used to manuever the in-game camera (look up/down/left/right). 
   ## Interaction:
-    Various objects around the room environment will be interactable. User's can pick them up using **WHAT BUTTON?** button and throw them as well.
+  Various objects around the room environment will be interactable. User's can pick them up using **WHAT BUTTON?** button and throw them as well.
   ## Pause Menu
-    By pressing "" **WHAT BUTTON T_T**, the user can access the pause menu where User's can return to the Main Menu (effectively ending the experience) or access the controls again.
+  By pressing "" **WHAT BUTTON T_T**, the user can access the pause menu where User's can return to the Main Menu (effectively ending the experience) or access the controls again.
     
 # What To Expect
   The User will experience visual (warped colors, glowing, etc.) and auditory effects (distortion) throughout the experience. The experience is 5 minutes long and will take you back to the Main Menu once it is over.
