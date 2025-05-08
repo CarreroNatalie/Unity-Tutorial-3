@@ -68,6 +68,7 @@
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Audio.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\CeillingLight.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\FastGlitch\Example\Hover.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Utility\TimeZoneConverter.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\DeskLamp.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Utility\YureiButtonAttribute.cs" />
@@ -90,7 +91,9 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\SampleScene.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\FastGlitch\FastGlitch.cs" />
     <Compile Include="Assets\Scripts\Return.cs" />
+    <Compile Include="Assets\HueShift.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\ExtAirConditioner.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\Scripts\ScreenFader.cs" />
@@ -106,6 +109,7 @@
   <ItemGroup>
     <None Include="Assets\vinicius develops\Wobble Effect\Shaders\Sprite-WobbleFx.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\FastGlitch\Example\Objects\CustomSpecular.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Mushroom Forest\Shaders\Normal-BumpSpecRim.shader" />
@@ -131,6 +135,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\vinicius develops\Wobble Effect\Shaders\Sprite-WobbleFx_Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\FastGlitch\FastGlitch.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
