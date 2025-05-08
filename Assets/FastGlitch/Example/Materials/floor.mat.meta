@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f5ed3329a4322e40b9ceb997232257b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175649
+  packageName: Fast Glitch ( Mobile , URP , VR , AR , LWRP, Default Pipeline )
+  packageVersion: 1.1
+  assetPath: Assets/FastGlitch/Example/Materials/floor.mat
+  uploadId: 448944
