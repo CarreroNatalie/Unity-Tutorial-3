@@ -15,7 +15,7 @@ A:/Unity-Tutorial-3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61402
+62270
 -job-worker-count
 2
 -background-job-worker-count
@@ -59,12 +59,12 @@ A:/Unity-Tutorial-3
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14840]  Target information:
+Player connection [13900]  Target information:
 
-Player connection [14840]  * "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 2748562233 [EditorId] 2748562233 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G8LKMFH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13900]  * "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1070468450 [EditorId] 1070468450 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G8LKMFH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14840] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14840] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13900] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13900] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 2
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,8 +76,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.73 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.60 ms.
+Refreshing native plugins compatible for Editor in 8.56 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
 Initialize engine version: 6000.0.40f1 (157d81624ddf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path A:/Unity-Tutorial-3/Assets
@@ -92,46 +92,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.007526 seconds.
-- Loaded All Assemblies, in  0.600 seconds
+Registered in 0.007968 seconds.
+- Loaded All Assemblies, in  0.609 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 401 ms
+Android Extension - Scanning For ADB Devices 445 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.980 seconds
-Domain Reload Profiling: 1574ms
-	BeginReloadAssembly (206ms)
+- Finished resetting the current domain, in  1.064 seconds
+Domain Reload Profiling: 1667ms
+	BeginReloadAssembly (222ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (240ms)
-		LoadAssemblies (200ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (216ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (235ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (215ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (209ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (980ms)
+	FinalizeReload (1064ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (914ms)
+		SetupLoadedEditorAssemblies (999ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (552ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (182ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
+			InitializePlatformSupportModulesInManaged (589ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,7 +140,7 @@ Domain Reload Profiling: 1574ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.188 seconds
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.328 seconds
 Refreshing native plugins compatible for Editor in 4.03 ms, found 6 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -172,60 +172,92 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.110 seconds
-Domain Reload Profiling: 2289ms
-	BeginReloadAssembly (247ms)
+- Finished resetting the current domain, in  1.083 seconds
+Domain Reload Profiling: 2402ms
+	BeginReloadAssembly (328ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (807ms)
-		LoadAssemblies (577ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (848ms)
+		LoadAssemblies (691ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (378ms)
-			TypeCache.Refresh (278ms)
-				TypeCache.ScanAssembly (251ms)
-			BuildScriptInfoCaches (76ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1110ms)
+		AnalyzeDomain (377ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (262ms)
+			BuildScriptInfoCaches (69ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1083ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (875ms)
+		SetupLoadedEditorAssemblies (839ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (519ms)
-			ProcessInitializeOnLoadMethodAttributes (174ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (501ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 5.56 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 284 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7171 unused Assets / (7.6 MB). Loaded Objects now: 7906.
-Memory consumption went from 184.3 MB to 176.7 MB.
-Total: 13.330200 ms (FindLiveObjects: 0.928900 ms CreateObjectMapping: 1.648800 ms MarkObjects: 5.394800 ms  DeleteObjects: 5.356500 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.05 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7171 unused Assets / (7.7 MB). Loaded Objects now: 7901.
+Memory consumption went from 179.2 MB to 171.5 MB.
+Total: 11.301900 ms (FindLiveObjects: 0.831200 ms CreateObjectMapping: 1.505500 ms MarkObjects: 5.218500 ms  DeleteObjects: 3.745200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34730.439916 seconds.
+  Time since last request: 39227.720759 seconds.
+  path: Assets/Materials/background1.jpg
+  artifactKey: Guid(fd99aaec9d7107941a4d564394259d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/background1.jpg using Guid(fd99aaec9d7107941a4d564394259d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed8ddfea05800245f60b3d7577f66c65') in 0.5532069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(cbeb7869d9abc074f9911d17da9cd786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(cbeb7869d9abc074f9911d17da9cd786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d368ba531e16ee10815e5fcb9b5c103') in 0.6798734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/FloorMat.mat
+  artifactKey: Guid(26a7cae3438dea1419abcc6b92bff568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FloorMat.mat using Guid(26a7cae3438dea1419abcc6b92bff568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62d5a8a52d013a997b7dd91cf09c5949') in 0.0280804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.443177 seconds.
+  path: Assets/Materials/OCULUS HOME.jpg
+  artifactKey: Guid(a3e2a7a5f3326fb4abef041e0a0df49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/OCULUS HOME.jpg using Guid(a3e2a7a5f3326fb4abef041e0a0df49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5c8b4694706886bdcf4db0e3c48ede5') in 0.0398273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 616.298116 seconds.
   path: Assets/Scenes/Trip.unity
   artifactKey: Guid(9620fa7396d8aaf48bd9a3f80a571f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Trip.unity using Guid(9620fa7396d8aaf48bd9a3f80a571f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cbe9fa30f55f122b9d62f73dfaf5bf8') in 0.0074966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Start importing Assets/Scenes/Trip.unity using Guid(9620fa7396d8aaf48bd9a3f80a571f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4451ccca8aeb737557f97551a6061c92') in 0.0010311 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.978 seconds
-Refreshing native plugins compatible for Editor in 3.90 ms, found 6 plugins.
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.010 seconds
+Refreshing native plugins compatible for Editor in 7.02 ms, found 6 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -252,52 +284,52 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.150 seconds
-Domain Reload Profiling: 2123ms
-	BeginReloadAssembly (253ms)
+- Finished resetting the current domain, in  1.178 seconds
+Domain Reload Profiling: 2185ms
+	BeginReloadAssembly (278ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (24ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (608ms)
-		LoadAssemblies (489ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (616ms)
+		LoadAssemblies (487ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (254ms)
+		AnalyzeDomain (264ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (219ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1151ms)
+			BuildScriptInfoCaches (230ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1179ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (870ms)
+		SetupLoadedEditorAssemblies (924ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (567ms)
-			ProcessInitializeOnLoadMethodAttributes (125ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 5.87 ms, found 6 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.94 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7167 unused Assets / (7.6 MB). Loaded Objects now: 7924.
-Memory consumption went from 198.1 MB to 190.4 MB.
-Total: 13.226500 ms (FindLiveObjects: 1.243900 ms CreateObjectMapping: 1.729900 ms MarkObjects: 5.307900 ms  DeleteObjects: 4.943600 ms)
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7169 unused Assets / (6.8 MB). Loaded Objects now: 7986.
+Memory consumption went from 227.0 MB to 220.2 MB.
+Total: 11.185300 ms (FindLiveObjects: 0.865300 ms CreateObjectMapping: 1.495500 ms MarkObjects: 5.126200 ms  DeleteObjects: 3.696800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.045 seconds
-Refreshing native plugins compatible for Editor in 4.22 ms, found 6 plugins.
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.180 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 6 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -324,44 +356,54 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.117 seconds
-Domain Reload Profiling: 2157ms
-	BeginReloadAssembly (286ms)
+- Finished resetting the current domain, in  1.280 seconds
+Domain Reload Profiling: 2448ms
+	BeginReloadAssembly (277ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (644ms)
-		LoadAssemblies (520ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (751ms)
+		LoadAssemblies (612ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (277ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (244ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1117ms)
+			BuildScriptInfoCaches (245ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1281ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (852ms)
+		SetupLoadedEditorAssemblies (990ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (545ms)
-			ProcessInitializeOnLoadMethodAttributes (126ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (611ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (27ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 9.04 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7167 unused Assets / (7.2 MB). Loaded Objects now: 7927.
-Memory consumption went from 219.4 MB to 212.2 MB.
-Total: 14.064600 ms (FindLiveObjects: 1.035100 ms CreateObjectMapping: 2.245500 ms MarkObjects: 6.333300 ms  DeleteObjects: 4.449200 ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 4.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7168 unused Assets / (9.9 MB). Loaded Objects now: 7989.
+Memory consumption went from 226.8 MB to 216.9 MB.
+Total: 23.790700 ms (FindLiveObjects: 0.904000 ms CreateObjectMapping: 4.647500 ms MarkObjects: 11.021000 ms  DeleteObjects: 7.216700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (3.9 MB). Loaded Objects now: 7989.
+Memory consumption went from 178.0 MB to 174.1 MB.
+Total: 8.740700 ms (FindLiveObjects: 0.483000 ms CreateObjectMapping: 0.467900 ms MarkObjects: 6.866800 ms  DeleteObjects: 0.921400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
