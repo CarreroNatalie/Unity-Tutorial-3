@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0c17a072ec51f7548a5f2e670408f04d
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175649
+  packageName: Fast Glitch ( Mobile , URP , VR , AR , LWRP, Default Pipeline )
+  packageVersion: 1.1
+  assetPath: Assets/FastGlitch/URP_Glitch.unitypackage
+  uploadId: 448944

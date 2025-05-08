@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 785e3153481818c4ea3f789650d7b9f5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175649
+  packageName: Fast Glitch ( Mobile , URP , VR , AR , LWRP, Default Pipeline )
+  packageVersion: 1.1
+  assetPath: Assets/FastGlitch/Example/Objects/Drone.controller
+  uploadId: 448944
