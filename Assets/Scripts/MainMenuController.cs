@@ -5,13 +5,13 @@ public class MainMenuController : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("MenuScene");
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // Make sure XR rig or its collider is tagged "Player"
+        if (other.CompareTag("Player")) 
         {
-            SceneManager.LoadScene("Start");
+            SceneManager.LoadScene("Trip");
         }
     }
 }

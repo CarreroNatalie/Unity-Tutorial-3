@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Suggo Creations\RETROWAVE SKIES Lite\Readme Assets\Scripts\Editor\ReadmeEditorLite.cs" />
     <Compile Include="Assets\Polygonal Mind\Tools\Editor\PolygonalMind_Overlay.cs" />
   </ItemGroup>
   <ItemGroup>

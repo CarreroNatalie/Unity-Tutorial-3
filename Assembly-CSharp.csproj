@@ -64,6 +64,7 @@
     <Compile Include="Assets\Portal.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Utility\YureiManagerBRP.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\vinicius develops\Wobble Effect\WaterCamera.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Audio.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\CeillingLight.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
@@ -72,12 +73,15 @@
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Utility\YureiButtonAttribute.cs" />
     <Compile Include="Assets\Scripts\Eat.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\OfficeChair.cs" />
+    <Compile Include="Assets\Suggo Creations\RETROWAVE SKIES Lite\Scripts\GetGlobalMatrixLite.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Monitor.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Utility\Inspector\IgnoreInInspectorAttribute.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Setup\BrpSetup.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Setup\UrpSetup.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Suggo Creations\RETROWAVE SKIES Lite\Readme Assets\Scripts\ReadmeLite.cs" />
+    <Compile Include="Assets\vinicius develops\Wobble Effect\Sample Scene\CameraController.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Utility\YureiPostProcessorIdentifier.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Kettle.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\AirConditioner.cs" />
@@ -86,14 +90,13 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\SampleScene.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
-    <Compile Include="Assets\Scripts\Coin.cs" />
+    <Compile Include="Assets\Scripts\Return.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\ExtAirConditioner.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\Scripts\ScreenFader.cs" />
     <Compile Include="Assets\Scripts\MainMenuController.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Clock.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Computer.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Utility\Inspector\YureiInspector.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Utility\TurnOnAble.cs" />
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Utility\YureiManagerURP.cs" />
@@ -101,14 +104,19 @@
     <Compile Include="Assets\Fries and Seagull\Interior 01\Scripts\Suitcase.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\vinicius develops\Wobble Effect\Shaders\Sprite-WobbleFx.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Mushroom Forest\Shaders\Normal-BumpSpecRim.shader" />
+    <None Include="Assets\WobblyPanoramicSky.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\vinicius develops\Wobble Effect\Shaders\WobbleFx_Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\vinicius develops\Wobble Effect\Shaders\Sprite-WobbleFx_Screen.shader" />
+    <None Include="Assets\vinicius develops\Wobble Effect\Shaders\WobbleFx.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -116,13 +124,17 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Suggo Creations\RETROWAVE SKIES Lite\Shaders\Includes\MainLight.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\vinicius develops\README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\vinicius develops\Wobble Effect\Shaders\Sprite-WobbleFx_Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\vinicius develops\Wobble Effect\Shaders\WobbleFx_Screen.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
